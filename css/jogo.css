@@ -19,7 +19,7 @@
     flex-direction: row;
     padding: 15px;
     justify-content: center;
-    width: 45%;
+    width: 100%;
 }
 #anime h2{
     color: yellow;
@@ -119,5 +119,9 @@
 #filme h2{
     color: yellow;
     text-align: center;
+}
+
+@media only screen and (max-device-width: 900px){
+    
 }
 
