@@ -10,7 +10,7 @@
 }
 #anime{
     background-image: url(./imagens/animes.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -100,9 +100,9 @@
 }
 #jogo{
     background-image: url(./imagens/jogos.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 40%;
+    
    
     
 }
@@ -113,7 +113,7 @@
 }
 #filme{
     background-image: url(./imagens/filmes.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #filme h2{
@@ -122,6 +122,6 @@
 }
 
 @media only screen and (max-device-width: 900px){
-    
+
 }
 
