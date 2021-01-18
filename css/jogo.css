@@ -1,130 +1,93 @@
 
 
-    
-    #alters1{
-    display: flex;
-    flex-direction: row;
-    
-    
-
-}
-#anime{
+   * { margin: 0;padding: 0;border: none;}
+   #anime{
     background-image: url(./imagens/animes.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
 }
-
-#animes{
-    display: flex;
+#animes{display: flex;
     flex-direction: row;
-    padding: 15px;
     justify-content: center;
-    width: 100%;
 }
-#anime h2{
-    color: yellow;
-    text-align: center;
-}
+
 #quest1{
-    
-    background-color: rgba(42, 29, 219, 0.85);;
-
-    width: 400%;
-    height: 300px;
-    margin: 2%;
-   
-    border-radius: 10%;
-    color: yellow;
-}
-#quest1 img{
-    display: flex;
-    width: 200px;
-    height: 170px;
-    margin: 0%;
-    flex-direction: column;
-    border-radius: 10%;
-}
-
-#quest2 img{
-    display: flex;
-    width: 200px;
-    height: 170px;
-    margin: 0%;
-    flex-direction: column;
-    border-radius: 10%;
-}
-#quest2{
-    background-color: rgba(42, 29, 219, 0.85);;
-
-    width: 400%;
-    height: 300px;
-    margin: 2%;
-  
-    border-radius: 10%;
-    color: yellow;
-}
-#quest3{
-    background-color: rgba(42, 29, 219, 0.85);;
-
-    width: 400%;
-    height: 300px;
-    margin: 2%;
-   
-    border-radius: 10%;
-    color: yellow;
-}
-#quest3 img{
-    display: flex;
-    width: 200px;
-    height: 170px;
-    margin: 0%;
-    flex-direction: column;
-    border-radius: 10%;
-}
-#quest4{
-    background-color: rgba(42, 29, 219, 0.85);;
-    width: 400%;
-    height: 300px;
-    margin: 2%;
-   
-    border-radius: 10%;
-    color: yellow;
-}
-#quest4 img{
-    display: flex;
-    width: 200px;
-    height: 170px;
-    margin: 0%;
-    flex-direction: column;
-    border-radius: 10%;
-}
-#jogo{
-    background-image: url(./imagens/jogos.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     width: 100%;
+    height: 200;
+    margin: 2%;
+    border-radius: 10%;
+
     
-   
+    background-color: rgba(42, 29, 219, 0.85);;}
+ #quest2{width: 100%;
+    height: 200;
+    margin: 2%;
+    border-radius: 10%;
     
-}
+        background-color: rgba(42, 29, 219, 0.85);;}
+ #quest3{width: 100%;
+    height: 200;
+    margin: 2%;
+    border-radius: 10%;
+    
+            background-color: rgba(42, 29, 219, 0.85);;}
+ #quest4{width: 100%;
+    height: 200;
+    margin: 2%;
+    border-radius: 10%;
+    
+                background-color: rgba(42, 29, 219, 0.85);;}
+#quest1 img{width: 100%;
+height:100px;
+display: flex;
+justify-content: center;
+border-radius: 10%;}
 
-#jogo h2{
-    color: yellow;
-    text-align: center;
-}
-#filme{
-    background-image: url(./imagens/filmes.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-}
-#filme h2{
-    color: yellow;
-    text-align: center;
-}
+#quest2 img{width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;}
 
-@media only screen and (max-device-width: 900px){
+    #quest3 img{width: 100%;
+        height:100px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10%;}
+        #quest4 img{width: 100%;
+            height:100px;
+            display: flex;
+            justify-content: center;
+            border-radius: 10%;}
+            #anime h2{color: yellow;
 
-}
+                text-align: center;}
+                #jogo h2{
+                    color: yellow;
+
+                text-align: center;
+                }
+            #filme h2{color: yellow;
+
+                text-align: center;
+            }
+            #filme{
+                background-image: url(./imagens/filmes.jpg);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                width: 100%;}
+                #jogo{
+                    background-image: url(./imagens/jogos.jpg);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    width: 100%;     
+                }
+                
+
+
+
+
+
+
 
