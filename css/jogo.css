@@ -12,6 +12,7 @@
     background-image: url(./imagens/animes.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 #animes{
@@ -102,6 +103,7 @@
     background-image: url(./imagens/jogos.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    width: 100%;
     
    
     
@@ -115,6 +117,7 @@
     background-image: url(./imagens/filmes.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    width: 100%;
 }
 #filme h2{
     color: yellow;
