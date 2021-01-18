@@ -1,0 +1,123 @@
+
+
+    
+    #alters1{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+#anime{
+    background-image: url(./imagens/animes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#animes{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: center;
+    width: 45%;
+}
+#anime h2{
+    color: yellow;
+    text-align: center;
+}
+#quest1{
+    
+    background-color: rgba(42, 29, 219, 0.85);;
+
+    width: 400%;
+    height: 300px;
+    margin: 2%;
+   
+    border-radius: 10%;
+    color: yellow;
+}
+#quest1 img{
+    display: flex;
+    width: 200px;
+    height: 170px;
+    margin: 0%;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+#quest2 img{
+    display: flex;
+    width: 200px;
+    height: 170px;
+    margin: 0%;
+    flex-direction: column;
+    border-radius: 10%;
+}
+#quest2{
+    background-color: rgba(42, 29, 219, 0.85);;
+
+    width: 400%;
+    height: 300px;
+    margin: 2%;
+  
+    border-radius: 10%;
+    color: yellow;
+}
+#quest3{
+    background-color: rgba(42, 29, 219, 0.85);;
+
+    width: 400%;
+    height: 300px;
+    margin: 2%;
+   
+    border-radius: 10%;
+    color: yellow;
+}
+#quest3 img{
+    display: flex;
+    width: 200px;
+    height: 170px;
+    margin: 0%;
+    flex-direction: column;
+    border-radius: 10%;
+}
+#quest4{
+    background-color: rgba(42, 29, 219, 0.85);;
+    width: 400%;
+    height: 300px;
+    margin: 2%;
+   
+    border-radius: 10%;
+    color: yellow;
+}
+#quest4 img{
+    display: flex;
+    width: 200px;
+    height: 170px;
+    margin: 0%;
+    flex-direction: column;
+    border-radius: 10%;
+}
+#jogo{
+    background-image: url(./imagens/jogos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40%;
+   
+    
+}
+
+#jogo h2{
+    color: yellow;
+    text-align: center;
+}
+#filme{
+    background-image: url(./imagens/filmes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#filme h2{
+    color: yellow;
+    text-align: center;
+}
+
