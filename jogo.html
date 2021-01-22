@@ -13,8 +13,18 @@
 </head>
 <body>
     <div id="nerd">
+       
     <div id="anime">
     <h2>ANIMES</h2><br>
+    <center><div id="resultA">
+    
+        <button>SCORE ATUAL: <span id="result"></span></button>
+        
+        <a href="jogo.html"><button> NEW GAME</button></a>
+        
+
+     
+     </div></center>
    <center> <div id="animes">
     
 
@@ -30,6 +40,10 @@
      <label for="b1">Naruto</label><br>
      <input type="radio" id="c1" name="1" value="huey">
      <label for="c1">Erased</label><br>
+     <button onclick="pergunta1()">confirmar</button>
+     <span id="resp1"></span>
+
+
     </div>
         </div>
 
@@ -39,7 +53,7 @@
          <div id="quest2">
        <center> <img src="./css/imagens/Haku.PNG.png" alt=""></center>
 
-        Qual é o sexo da personagem a cima <br>
+        Qual é o sexo da personagem a cima do anime Naruto <br>
        
         <input type="radio" id="d2" name="2" value="huey">
  <label for="d2">Masculino</label><br>
@@ -47,6 +61,8 @@
  <label for="e2">Feminino</label><br>
  <input type="radio" id="f2" name="2" value="huey">
  <label for="f2">indefinido</label><br>
+ <button onclick="pergunta2()">confirmar</button>
+ <span id="resp2"></span>
 
 
 
@@ -61,6 +77,8 @@
 <label for="h1">One piece</label><br>
 <input type="radio" id="i1" name="3" value="huey">
 <label for="i1">Shingeki no Kyojin</label><br>
+<button onclick="pergunta3()">confirmar</button>
+<span id="resp3"></span>
 
 </div>
 <div id="quest4">
@@ -73,6 +91,8 @@
 <label for="k1">Hyouka</label><br>
 <input type="radio" id="l1" name="4" value="huey">
 <label for="l1">Cavaleiros do Zodiaco</label><br>
+<button onclick="pergunta4()">confirmar</button>
+<span id="resp4"></span>
 
 </div>
 
@@ -90,12 +110,14 @@
 
             Que jogo a Square apostou suas ultimas fichas ?<br>
             
-            <input type="radio" id="1a" name="5" value="huey">
-     <label for="1a">Tomb Raider</label><br>
-     <input type="radio" id="1b" name="5" value="huey">
-     <label for="1b">Final Fantasy</label><br>
-     <input type="radio" id="1c" name="5" value="huey">
-     <label for="1c">Marvel Avangers</label><br>
+            <input type="radio" id="aa" name="5" value="huey">
+     <label for="aa">Tomb Raider</label><br>
+     <input type="radio" id="bb" name="5" value="huey">
+     <label for="bb">Final Fantasy</label><br>
+     <input type="radio" id="cc" name="5" value="huey">
+     <label for="cc">Marvel Avangers</label><br>
+     <button onclick="pergunta5()">confirmar</button>
+     <span id="resp5"></span>
     </div>
         </div>
 
@@ -107,40 +129,46 @@
 
         Qual foi o jogo que ganhou o The Game Awards de 2020? <br>
        
-        <input type="radio" id="2d" name="6" value="huey">
+        <input type="radio" id="dd" name="6" value="huey">
         
- <label for="2d">Marvel Avangers</label><br>
- <input type="radio" id="2e" name="6" value="huey">
+ <label for="dd">Marvel Avangers</label><br>
+ <input type="radio" id="ee" name="6" value="huey">
         
- <label for="2e">The Last of Us 2</label><br>
- <input type="radio" id="2f" name="6" value="huey">
+ <label for="ee">The Last of Us 2</label><br>
+ <input type="radio" id="ff" name="6" value="huey">
         
- <label for="2f">DOOM</label><br>
+ <label for="ff">DOOM</label><br>
+ <button onclick="pergunta6()">confirmar</button>
+ <span id="resp6"></span>
 </div>
 
 <div id="quest3">
     <center> <img src="./css/imagens/soulcalibur.jpg" alt=""></center>
 
     Que jogo de luta esta representado na imagem? <br>
-    <input type="radio" id="3a" name="7" value="huey">
+    <input type="radio" id="gg" name="7" value="huey">
     
-<label for="3a">Street Fighter</label><br>
-<input type="radio" id="3b" name="7" value="huey">
-<label for="3b">soulcalibur</label><br>
-<input type="radio" id="3c" name="7" value="huey">
-<label for="3c">Mortal Kombat</label><br>
+<label for="gg">Street Fighter</label><br>
+<input type="radio" id="hh" name="7" value="huey">
+<label for="hh">soulcalibur</label><br>
+<input type="radio" id="ii" name="7" value="huey">
+<label for="ii">Mortal Kombat</label><br>
+<button onclick="pergunta7()">confirmar</button>
+<span id="resp7"></span>
 </div>
 
 <div id="quest4">
     <center> <img src="./css/imagens/plays.png" alt=""></center>
 
-    Qual dos jogos a seguir é um exclusivos da Playstation <br>
-    <input type="radio" id="4a" name="8" value="huey">
-<label for="4a">Halo</label><br>
-<input type="radio" id="4b" name="8" value="huey">
-<label for="4b">Gears of War</label><br>
-<input type="radio" id="4c" name="8" value="huey">
-<label for="4c">God of War</label><br>
+    Qual dos jogos a seguir é um exclusivo da Playstation <br>
+    <input type="radio" id="jj" name="8" value="huey">
+<label for="jj">Halo</label><br>
+<input type="radio" id="kk" name="8" value="huey">
+<label for="kk">Gears of War</label><br>
+<input type="radio" id="ll" name="8" value="huey">
+<label for="ll">God of War</label><br>
+<button onclick="pergunta8()">confirmar</button>
+<span id="resp8"></span>
 
 </div>
 
@@ -159,12 +187,14 @@
 
         Quantos Oscars a franquia de Filmes "O Senhor dos Anéis" possui? <br>
         <div id="alters1"></div>
-        <input type="radio" id="11a" name="9" value="huey">
- <label for="11a">11</label><br>
- <input type="radio" id="11b" name="9" value="huey">
- <label for="11b">6</label><br>
- <input type="radio" id="11c" name="9" value="huey">
- <label for="11c">17</label><br>
+        <input type="radio" id="mm" name="9" value="huey">
+ <label for="mm">11</label><br>
+ <input type="radio" id="nn" name="9" value="huey">
+ <label for="nn">6</label><br>
+ <input type="radio" id="oo" name="9" value="huey">
+ <label for="oo">17</label><br>
+ <button onclick="pergunta9()">confirmar</button>
+ <span id="resp9"></span>
     </div>
 
 
@@ -175,53 +205,48 @@
 
     Em que ano foi lançado o primeiro Filme da Franquia Harry Potter <br>
    
-    <input type="radio" id="22a" name="10" value="huey">
-<label for="22a">2003</label><br>
-<input type="radio" id="22b" name="10" value="huey">
-<label for="22b">2001</label><br>
-<input type="radio" id="22c" name="10" value="huey">
-<label for="22c">2000</label><br>
+    <input type="radio" id="pp" name="10" value="huey">
+<label for="pp">2003</label><br>
+<input type="radio" id="qq" name="10" value="huey">
+<label for="qq">2001</label><br>
+<input type="radio" id="rr" name="10" value="huey">
+<label for="rr">2000</label><br>
+<button onclick="pergunta10()">confirmar</button>
+<span id="resp10"></span>
 </div>
 
 <div id="quest3">
 <center> <img src="./css/imagens/endg.jpg" alt=""></center>
 
-Qual o filme de maior bilheteria mundial? <br>
-<input type="radio" id="33a" name="11" value="huey">
-<label for="33a">Titanic</label><br>
-<input type="radio" id="33b" name="11" value="huey">
-<label for="33b">Avatar</label><br>
-<input type="radio" id="33c" name="11" value="huey">
-<label for="33c">Avengers: Endgame</label><br>
+Qual dos filmes a cima tem a maior bilheteria mundial? <br>
+<input type="radio" id="tt" name="11" value="huey">
+<label for="tt">Titanic</label><br>
+<input type="radio" id="uu" name="11" value="huey">
+<label for="uu">Avatar</label><br>
+<input type="radio" id="vv" name="11" value="huey">
+<label for="vv">Avengers: Endgame</label><br>
+<button onclick="pergunta11()">confirmar</button>
+<span id="resp11"></span>
 </div>
 
 <div id="quest4">
     <center> <img src="./css/imagens/star.jpg" alt=""></center>
     
     Em que filme da fraquia Star Wars Luke descobre que Darth Vader é o seu pai? <br>
-    <input type="radio" id="44a" name="12" value="huey">
-    <label for="44a">O Despertar da Força</label><br>
-<input type="radio" id="44b" name="12" value="huey">
-<label for="44b">Uma Nova Esperança</label><br>
-<input type="radio" id="44c" name="12" value="huey" data-resultado="true">
-<label for="44c">O Imperio Contra-ataca</label><br>
+    <input type="radio" id="ww" name="12" value="huey">
+    <label for="ww">O Despertar da Força</label><br>
+<input type="radio" id="xx" name="12" value="huey">
+<label for="xx">Uma Nova Esperança</label><br>
+<input type="radio" id="yy" name="12" value="huey" data-resultado="true">
+<label for="yy">O Imperio Contra-ataca</label><br>
+<button onclick="pergunta12()">confirmar</button>
+<span id="resp12"></span>
 
 
 </div>
 
 </div>
-<div id="result">
-    <input type="submit"name="Validar" value="Validar">
-   <button>RESULTADO: <span id="resultado"></span></button> 
 
-</div>
-</div>
- 
-
-
-
-        
-
-    
+</div>   
 </body>
 </html>
