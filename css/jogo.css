@@ -97,6 +97,22 @@ border-radius: 10%;}
                     border-radius: 20%;
                     box-shadow: 20px black;
                 }
+                #quest1 button{
+                    display: flex;
+                    justify-content: center;
+                background-color: yellow;}
+                #quest2 button{
+                    display: flex;
+                    justify-content: center;
+                background-color: yellow;}
+                #quest3 button{
+                    display: flex;
+                    justify-content: center;
+                background-color: yellow;}
+                #quest4 button{
+                    display: flex;
+                    justify-content: center;
+                background-color: yellow;}
 
 @media screen and (min-width:1040px){
   
